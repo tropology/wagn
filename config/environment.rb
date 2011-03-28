@@ -10,7 +10,7 @@ require File.join(File.dirname(__FILE__), 'wagn_initializer')
   
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence those specified here
-  #RAILS_GEM_VERSION = '3.0.4' unless defined? RAILS_GEM_VERSION  
+  #RAILS_GEM_VERSION = '3.0.5' unless defined? RAILS_GEM_VERSION  
   
   Wagn::Initializer.set_default_rails_config config
 
